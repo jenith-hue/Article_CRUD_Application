@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container">
+    <h2>PLZ RATE MY APPLICATION</h2>
+    <br/>
+    <label for="input-1" class="control-label">GIVE U R RATINGS HERE</label>
+    <input id="input-1" name="input-1" class="rating rating-loading" value="3" data-min="0" data-max="5" data-step="0.5" data-size="md">
+</div>
+<script>
+$("#input-id").rating();
+</script>
+{% endblock %}
+
